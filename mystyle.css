@@ -1,0 +1,48 @@
+body{
+    background-color: #7aadba;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+img{
+  max-width: 100%;
+  height auto;
+}
+h4:hover{
+  cursor:pointer;
+}
+
+.centered{
+  text-align: center;
+}
+
+.cont_div{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(25% - 3rem);
+  }
+}
