@@ -26,3 +26,8 @@
 
   // Send request
   request.send()
+
+
+function stageBack(){
+  window.history.back();
+}
